@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Projects_And_Tasks</name>
+    </assembly>
+    <members>
+        <member name="M:Projects_And_Tasks.Controllers.CompanyController.GetAll">
+            <summary>
+            Gets all companies.
+            </summary>
+            <returns>Array of Company</returns>
+            <response code="200">Returns array of Company</response>
+            <response code="400">Validation failed</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.CompanyController.Get(System.Int32)">
+            <summary>
+            Gets a company by id.
+            </summary>
+            <param name="id">Company id</param>
+            <returns>Company</returns>
+            <response code="200">Returns Company</response>
+            <response code="400">Validation failed</response>
+            <response code="404">Not found</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.CompanyController.Create(Logic.Model.CompanyModel)">
+            <summary>
+            Creates a new company.
+            </summary>
+            <returns>A newly created company</returns>
+            <response code="200">Returns the newly created company</response>
+            <response code="400">Validation failed</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.CompanyController.Update(Logic.Model.CompanyModel)">
+            <summary>
+            Updates a company.
+            </summary>
+            <returns>Updated company</returns>
+            <response code="200">Company</response>
+            <response code="400">Validation failed</response>
+            <response code="404">Not found</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.CompanyController.Delete(System.Int32)">
+            <summary>
+            Deletes a company.
+            </summary>
+            <param name="id">Company id</param>
+            <returns>Deleted Company</returns>
+            <response code="200">Returns the deleted company</response>
+            <response code="400">Validation failed</response>
+            <response code="404">Not found</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.GameController.GetAll">
+            <summary>
+            Gets all games.
+            </summary>
+            <returns>Array of Game</returns>
+            <response code="200">Returns array of Game</response>
+            <response code="400">Validation failed</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.GameController.Get(System.Int32)">
+            <summary>
+            Gets a game by id.
+            </summary>
+            <param name="id">Game id</param>
+            <returns>Game</returns>
+            <response code="200">Returns Game</response>
+            <response code="400">Validation failed</response>
+            <response code="404">Not found</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.GameController.Create(Logic.Model.GameModel)">
+            <summary>
+            Creates a new game.
+            </summary>
+            <returns>A newly created game</returns>
+            <response code="200">Returns the newly created game</response>
+            <response code="400">Validation failed</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.GameController.Update(Logic.Model.GameModel)">
+            <summary>
+            Updates a game.
+            </summary>
+            <returns>Updated game</returns>
+            <response code="200">Game</response>
+            <response code="400">Validation failed</response>
+            <response code="404">Not found</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.GameController.Delete(System.Int32)">
+            <summary>
+            Deletes a game.
+            </summary>
+            <param name="id">Game id</param>
+            <returns>Deleted Game</returns>
+            <response code="200">Returns the deleted game</response>
+            <response code="400">Validation failed</response>
+            <response code="404">Not found</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.GenereController.GetAll">
+            <summary>
+            Gets all generes.
+            </summary>
+            <returns>Array of Genere</returns>
+            <response code="200">Returns array of Genere</response>
+            <response code="400">Validation failed</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.GenereController.Get(System.Int32)">
+            <summary>
+            Gets a genere by id.
+            </summary>
+            <param name="id">Genere id</param>
+            <returns>Genere</returns>
+            <response code="200">Returns Genere</response>
+            <response code="400">Validation failed</response>
+            <response code="404">Not found</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.GenereController.Create(Logic.Model.GenereModel)">
+            <summary>
+            Creates a new genere.
+            </summary>
+            <returns>A newly created genere</returns>
+            <response code="200">Returns the newly created genere</response>
+            <response code="400">Validation failed</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.GenereController.Update(Logic.Model.GenereModel)">
+            <summary>
+            Updates a genere.
+            </summary>
+            <returns>Updated genere</returns>
+            <response code="200">Genere</response>
+            <response code="400">Validation failed</response>
+            <response code="404">Not found</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.GenereController.Delete(System.Int32)">
+            <summary>
+            Deletes a genere.
+            </summary>
+            <param name="id">Genere id</param>
+            <returns>Deleted Genere</returns>
+            <response code="200">Returns the deleted genere</response>
+            <response code="400">Validation failed</response>
+            <response code="404">Not found</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="T:Projects_And_Tasks.ApiError">
+            <summary>
+            Api error details
+            </summary>
+        </member>
+        <member name="P:Projects_And_Tasks.ApiError.title">
+            <summary>
+            Problem description
+            </summary>
+        </member>
+        <member name="P:Projects_And_Tasks.ApiError.status">
+            <summary>
+            Status (404 or 500)
+            </summary>
+        </member>
+    </members>
+</doc>

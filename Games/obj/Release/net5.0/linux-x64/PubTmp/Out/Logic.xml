@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Logic</name>
+    </assembly>
+    <members>
+        <member name="T:Logic.LogicExceptionNotFound">
+            <summary>
+            The custom exception that being thrown when a user requests a nonexistent object. Later it's being replaced with a message using middleware
+            </summary>
+        </member>
+        <member name="T:Logic.Model.ProjectModel">
+            <summary>
+            Project class
+            </summary>
+        </member>
+        <member name="P:Logic.Model.ProjectModel.name">
+            <summary>
+            Project name
+            </summary>
+        </member>
+        <member name="P:Logic.Model.ProjectModel.startDateTime">
+            <summary>
+            Srart time of the project
+            </summary>
+        </member>
+        <member name="P:Logic.Model.ProjectModel.completedDateTime">
+            <summary>
+            Completion time of the project (should be greater than startDateTime or be null)
+            </summary>
+        </member>
+        <member name="P:Logic.Model.ProjectModel.status">
+            <summary>
+            Completion status
+            </summary>
+        </member>
+        <member name="P:Logic.Model.ProjectModel.priority">
+            <summary>
+            Project priority. Negative values also acceptable
+            </summary>
+        </member>
+        <member name="T:Logic.Model.ProjectTaskModel">
+            <summary>
+            Task class
+            </summary>
+        </member>
+        <member name="T:Logic.Model.ProjectTaskModel.ProjectTaskStatuses">
+            <summary>
+            Task status
+            </summary>
+        </member>
+        <member name="P:Logic.Model.ProjectTaskModel.id">
+            <summary>
+            Task Id
+            </summary>
+        </member>
+        <member name="P:Logic.Model.ProjectTaskModel.project_id">
+            <summary>
+            Id of project to which task is assigned. Currently task must be always assigned to a project. To change this behaviour remove required attributes in the ProjectTaskModel.cs and ProjectTask.cs
+            </summary>
+        </member>
+        <member name="P:Logic.Model.ProjectTaskModel.name">
+            <summary>
+            Task name
+            </summary>
+        </member>
+        <member name="P:Logic.Model.ProjectTaskModel.description">
+            <summary>
+            Task description
+            </summary>
+        </member>
+        <member name="P:Logic.Model.ProjectTaskModel.status">
+            <summary>
+            Task status
+            </summary>
+        </member>
+        <member name="P:Logic.Model.ProjectTaskModel.priority">
+            <summary>
+            Project priority. Negative values also acceptable
+            </summary>
+        </member>
+        <member name="T:Logic.Services.ProjectLogic_Service">
+            <summary>
+            This class defines the logic of the Project object and connecting data access level and representation level. Data access layer entities converted here using automapper
+            </summary>
+        </member>
+        <member name="T:Logic.Services.TaskLogic_Service">
+            <summary>
+            This class defines the logic of the Task object and connecting data access layer and representation. Data access layer entities converted here using automapper
+            </summary>
+        </member>
+    </members>
+</doc>

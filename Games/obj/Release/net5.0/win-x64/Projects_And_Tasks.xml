@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Projects_And_Tasks</name>
+    </assembly>
+    <members>
+        <member name="M:Projects_And_Tasks.Controllers.ProjectController.GetAll">
+            <summary>
+            Gets all projects.
+            </summary>
+            <returns>Array of projects</returns>
+            <response code="200">Returns array of project</response>
+            <response code="400">Validation failed</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.ProjectController.Get(System.Int32)">
+            <summary>
+            Gets a project by id.
+            </summary>
+            <param name="id">Project id</param>
+            <returns>Project</returns>
+            <response code="200">Returns project</response>
+            <response code="400">Validation failed</response>
+            <response code="404">Project not found</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.ProjectController.CreateProject(Representation.Model.ProjectModel_Create)">
+             <summary>
+             Creates a new project.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Project
+                 {
+                    "name": "My New Project",
+                    "startDateTime": "2022-02-11T17:45:56.633Z",
+                    "status": "NotStarted",
+                    "priority": 0
+                 }
+            
+             </remarks>
+             <returns>A newly created project</returns>
+             <response code="200">Returns the newly created project</response>
+             <response code="400">Validation failed</response>
+             <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.ProjectController.UpdateProject(Logic.Model.ProjectModel)">
+             <summary>
+             Updates the project.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 PATCH /Project
+                 {
+                    "id": 1,
+                    "name": "New Project Name For The Project With Id 1",
+                    "startDateTime": "2022-02-11T17:45:56.633Z",
+                    "status": "NotStarted",
+                    "priority": 0
+                 }
+            
+             </remarks>
+             <returns>Updated the project</returns>
+             <response code="200">Returns the updated project</response>
+             <response code="400">Validation failed</response>
+             <response code="404">Project not found</response>
+             <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.ProjectController.DeleteProject(System.Int32)">
+            <summary>
+            Deletes the project.
+            </summary>
+            <param name="id">Project id</param>
+            <returns>Deleted project</returns>
+            <response code="200">Returns the deleted project</response>
+            <response code="400">Validation failed</response>
+            <response code="404">Project not found</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.ProjectTasksController.GetTasks(System.Int32)">
+            <summary>
+            Gets all tasks by the project id.
+            </summary>
+            <returns>Array of the tasks</returns>
+            <response code="200">Returns array of tasks</response>
+            <response code="400">Validation failed</response>
+            <response code="404">Project not found</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.TaskController.GetAll">
+            <summary>
+            Gets all tasks.
+            </summary>
+            <returns>Array of tasks</returns>
+            <response code="200">Returns array of tasks</response>
+            <response code="400">Validation failed</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.TaskController.Get(System.Int32)">
+            <summary>
+            Gets a task by id.
+            </summary>
+            <param name="id">Task id</param>
+            <returns>Task</returns>
+            <response code="200">Returns task</response>
+            <response code="400">Validation failed</response>
+            <response code="404">Task not found</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.TaskController.CreateProject(Representation.Model.ProjectTaskModel_Create)">
+             <summary>
+             Creates a new task.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Task
+                 {
+                    "project_id": 1,
+                    "name": "My New Task",
+                    "description": "Optional description",
+                    "status": "ToDo",
+                    "priority": 0
+                 }
+            
+             </remarks>
+             <returns>A newly created task</returns>
+             <response code="200">Returns the newly created task</response>
+             <response code="400">Validation failed</response>
+             <response code="404">Specified project doesnt exist</response>
+             <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.TaskController.UpdateTask(Logic.Model.ProjectTaskModel)">
+             <summary>
+             Updates the task.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 PATCH /Task
+                 {
+                    "id": 1,
+                    "project_id": 1,
+                    "name": "My New Name For The Task With Id 1",
+                    "description": "Optional description",
+                    "status": "ToDo",
+                    "priority": 0
+                 }
+            
+             </remarks>
+             <returns>Updated the task</returns>
+             <response code="200">Returns the updated project</response>
+             <response code="400">Validation failed</response>
+             <response code="404">Task or project not found</response>
+             <response code="500">Service unavailable</response>
+        </member>
+        <member name="M:Projects_And_Tasks.Controllers.TaskController.DeleteProject(System.Int32)">
+            <summary>
+            Deletes the task.
+            </summary>
+            <param name="id">Task id</param>
+            <returns>Deleted project</returns>
+            <response code="200">Returns deleted task</response>
+            <response code="400">Validation failed</response>
+            <response code="404">Project not found</response>
+            <response code="500">Service unavailable</response>
+        </member>
+        <member name="T:Projects_And_Tasks.ApiError">
+            <summary>
+            Api error details
+            </summary>
+        </member>
+        <member name="P:Projects_And_Tasks.ApiError.title">
+            <summary>
+            Problem description
+            </summary>
+        </member>
+        <member name="P:Projects_And_Tasks.ApiError.status">
+            <summary>
+            Status (404 or 500)
+            </summary>
+        </member>
+        <member name="T:Representation.Model.ProjectModel_Create">
+            <summary>
+            Project infromation without Id (see ProjectModel)
+            </summary>
+        </member>
+        <member name="T:Representation.Model.ProjectTaskModel_Create">
+            <summary>
+            Task infromation without Id (see ProjectTaskModel)
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot2</_PublishTargetUrl>
+    <History>True|2022-02-12T12:20:07.1828701Z;True|2022-02-12T17:14:52.0285655+05:00;True|2022-02-12T16:50:58.9794560+05:00;False|2022-02-12T16:49:30.7972876+05:00;True|2022-02-12T16:48:41.2691026+05:00;True|2022-02-12T16:44:15.9041600+05:00;True|2022-02-12T16:05:18.1672318+05:00;True|2022-02-12T12:01:36.9673910+05:00;True|2022-02-11T23:28:09.4974920+05:00;False|2022-02-11T23:27:45.5155918+05:00;True|2022-02-11T23:19:21.9331834+05:00;True|2022-02-11T23:17:01.6939362+05:00;False|2022-02-11T23:16:08.3612251+05:00;</History>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=DESKTOP-MNGD11O\SQLEXPRESS%3bDatabase=TestQwerty%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

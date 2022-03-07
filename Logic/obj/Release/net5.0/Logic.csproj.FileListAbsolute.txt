@@ -1,0 +1,33 @@
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\bin\Release\net5.0\Logic.deps.json
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\bin\Release\net5.0\Logic.dll
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\bin\Release\net5.0\ref\Logic.dll
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\bin\Release\net5.0\Logic.pdb
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\bin\Release\net5.0\DataAccess.dll
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\bin\Release\net5.0\DataAccess.pdb
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\obj\Release\net5.0\Logic.csproj.AssemblyReference.cache
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\obj\Release\net5.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\obj\Release\net5.0\Logic.AssemblyInfoInputs.cache
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\obj\Release\net5.0\Logic.AssemblyInfo.cs
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\obj\Release\net5.0\Logic.csproj.CoreCompileInputs.cache
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\obj\Release\net5.0\Logic.csproj.CopyComplete
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\obj\Release\net5.0\Logic.dll
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\obj\Release\net5.0\ref\Logic.dll
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\obj\Release\net5.0\Logic.pdb
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\bin\Release\net5.0\dataaccess.json
+C:\Users\fccdp\source\repos\Projects_And_Tasks\Logic\bin\Release\net5.0\Logic.xml
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\bin\Release\net5.0\Logic.deps.json
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\bin\Release\net5.0\Logic.dll
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\bin\Release\net5.0\ref\Logic.dll
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\bin\Release\net5.0\Logic.pdb
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\bin\Release\net5.0\Logic.xml
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\bin\Release\net5.0\DataAccess.dll
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\bin\Release\net5.0\DataAccess.pdb
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\obj\Release\net5.0\Logic.csproj.AssemblyReference.cache
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\obj\Release\net5.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\obj\Release\net5.0\Logic.AssemblyInfoInputs.cache
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\obj\Release\net5.0\Logic.AssemblyInfo.cs
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\obj\Release\net5.0\Logic.csproj.CoreCompileInputs.cache
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\obj\Release\net5.0\Logic.csproj.CopyComplete
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\obj\Release\net5.0\Logic.dll
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\obj\Release\net5.0\ref\Logic.dll
+C:\Users\fccdp\source\repos\Projects_And_Tasks — копия\Logic\obj\Release\net5.0\Logic.pdb
